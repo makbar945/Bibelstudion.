@@ -16,7 +16,7 @@
 
     /* Länkar */
     a {
-      color: #9C4BFF; /* Accentfärg (lila) */
+      color: #FFFFFF; /* Vit text för länkar */
       text-decoration: none;
     }
 
@@ -28,7 +28,7 @@
     header {
       text-align: center;
       padding: 20px 10px;
-      background-color: #9C4BFF; /* Accentfärg */
+      background-color: #000000; /* Svart bakgrund */
       color: #FFFFFF;
     }
 
@@ -70,15 +70,16 @@
     }
 
     .vip-login button {
-      background-color: #9C4BFF; /* Accentfärg */
-      color: #FFFFFF;
-      border: none;
+      background-color: #000000; /* Svart knapp */
+      color: #FFFFFF; /* Vit text */
+      border: 1px solid #FFFFFF; /* Vit kant */
       padding: 10px 20px;
       cursor: pointer;
     }
 
     .vip-login button:hover {
       background-color: #D8B2FF; /* Ljuslila för hover */
+      color: #000000; /* Svart text */
     }
   </style>
 </head>
@@ -106,16 +107,4 @@
   <div class="vip-login">
     <form>
       <label for="vip-code">Ange din VIP-kod:</label>
-      <input type="text" id="vip-code" name="vip-code" placeholder="VIP-kod">
-      <button type="submit">Logga in</button>
-    </form>
-  </div>
-</main>
-
-<!-- Sidfot -->
-<footer>
-  <p>© 2025 Bibelstudion. Alla rättigheter förbehållna.</p>
-</footer>
-
-</body>
-</html>
+      <input type="text" id="vip-code" name="vip-code
